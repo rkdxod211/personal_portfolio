@@ -9,6 +9,24 @@ body{
         margin-left:35%;
     }
 
+    h2{
+        font-family: "Exo 2", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-size:50px;
+        font-style: normal;
+    }
+
+    h3 {
+        font-family: "Exo 2", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-size:50px;
+        font-style: normal;
+    }
+
+    
+
     p {
         font-family:"Exo 2", sans-serif;
         font-weight:700;
@@ -17,6 +35,30 @@ body{
         margin-top:-3%;
         color:rgb(4, 121, 175);
         line-height:1.5;
+    }
+
+    a{
+        display:block;
+        font-family: "Exo 2", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-size:50px;
+        font-style: normal;
+        text-decoration: none;
+        color:black;
+        margin-bottom: 30px;
+    }
+
+    .github:hover {
+        color:rgb(4, 121, 175);
+        text-decoration: underline;
+        transition:0.1s;
+    }
+
+    .linkedin:hover {
+        color:rgb(4, 121, 175);
+        text-decoration: underline;
+        transition:0.1s;
     }
 
     .sidebar {
@@ -58,7 +100,23 @@ body{
         display: block;
     }
 
-    .box {
+    .folder-icom {
+        width:50px;
+        height:50px;
+        object-fit:cover;
+        display:block;
+    }
+
+    .categories {
+    text-align: center;      
+    margin-left: 35%;       
+    }
+
+    .categories h3 {
+    margin-bottom: 200px; 
+    }
+
+    .box1 {
         width: 700px;
         height: 240px;
         margin: 10px;
@@ -69,4 +127,113 @@ body{
         font-weight: 600;
         margin-left:35%;
     }
+
+    .box2 {
+        width: 800px;
+        height: 200px;
+        padding: 25px;
+        border: 2px solid black;
+        font-size: 50px;
+        font-family: "Exo 2", sans-serif;
+        font-weight: 600;
+        margin-top: -3%;
+        margin-left:35%;
+    }
+
+    .box3 {
+        width: 800px;
+        height: 350px;
+        padding: 25px;
+        border: 2px solid black;
+        font-size: 50px;
+        font-family: "Exo 2", sans-serif;
+        font-weight: 600;
+        margin-top: 8%;
+        margin-left:35%;
+    }
+
+    .box4 {
+        width: 800px;
+        height: 350px;
+        padding: 25px;
+        border: 2px solid black;
+        font-size: 50px;
+        font-family: "Exo 2", sans-serif;
+        font-weight: 600;
+        margin-top: 10%;
+        margin-bottom: 200px;
+        margin-left:35%;
+    }
+
+    .box5 {
+        width: 800px;
+        height: 200px;
+        padding: 25px;
+        border: 2px solid black;
+        font-size: 50px;
+        font-family: "Exo 2", sans-serif;
+        font-weight: 600;
+        margin-top: 9%;
+        margin-left:35.5%;
+    }
+
+    .box6 {
+        width: 800px;
+        height: 350px;
+        padding: 25px;
+        border: 2px solid black;
+        font-size: 50px;
+        font-family: "Exo 2", sans-serif;
+        font-weight: 600;
+        margin-top: 8%;
+        margin-left:35.5%;
+    }
+
+    .box7 {
+        width: 800px;
+        height: 350px;
+        padding: 25px;
+        border: 2px solid black;
+        font-size: 50px;
+        font-family: "Exo 2", sans-serif;
+        font-weight: 600;
+        margin-top: 9%;
+        margin-left:35.5%;
+        margin-bottom:10%;
+    }
+    
+    .education {
+        position: absolute;
+        bottom: 220px;
+        left: 510px;
+    }
+
+    .interests {
+        position: absolute;
+        top: 1000px;
+        left: 510px;
+    }
+
+    .language {
+        position: absolute;
+        top:200px;
+        left:520px;
+    }
+
+    .clubsandactivities {
+        position:absolute;
+        top:565px;
+        left:520px;
+    }
+
+    .workandinternship {
+        position:absolute;
+        top:1100px;
+        left:520px;
+    }
+
+    .phone, .email, .github, .linkedin {
+        margin-left:35.5%;
+    }
+
 }
