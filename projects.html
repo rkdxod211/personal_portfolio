@@ -11,7 +11,7 @@
     <body>
         <h1>PROJECTS</h1>
         <div class="sidebar">
-            <img src="images/profile_pic.jpg" alt="Profile Picture" class="profile-img">
+            <img src="images/pp.jpg" alt="Profile Picture" class="profile-img">
             <nav>
                 <a href="index.html">HOME</a>
                 <a href="about.html">ABOUT ME</a>
@@ -21,7 +21,8 @@
             </nav>
         </div>
 
-        <div class="project_categories">
+        <div class="project_categories_container">
+            <div class="project_categories">
             <div class="categories" data-category="WEB">
                 <!--<img src="images/folder_icon.png" alt="WEB" class="folder-icon">-->
                 <button id="webButton" style="border:none; background:none; cursor:pointer;">
@@ -42,6 +43,16 @@
         </div>
 
         <div class="project_categories">
+            <div class="categories" data-category="GAMES">
+                <!--<img src="images/folder_icon.png" alt="WEB" class="folder-icon">-->
+                <button id="gameButton" style="border:none; background:none; cursor:pointer;">
+                    <img src="images/folder_icon.png" alt="Folder" width="120" height="100">
+                </button>     
+                <h3>GAMES</h3>
+            </div>
+        </div>
+
+        <div class="project_categories">
             <div class="categories" data-category="ETC">
                 <!--<img src="images/folder_icon.png" alt="WEB" class="folder-icon">-->
                 <button id="etcButton" style="border:none; background:none; cursor:pointer;">
@@ -50,8 +61,24 @@
                 <h3>ETC</h3>
             </div>
         </div>
+        </div>
 
+        <div class="projects-display">
+            <h2>VIEW MY PROJECTS</h2>
+            <div class="view-toggle">
+                <button id="tileViewBtn" style="border:none; background:none; cursor:pointer;">
+                    <img src="images/tile_icon.png" alt="TILE" width = "50" height = "50">
+                </button>
+                <button id="listViewBtn" style="border:none; background:none; cursor:pointer;">
+                    <img src="images/list_icon.png" alt="LIST" width = "50" height = "50">
+                </button>
+            </div>
+            <div id="projectsContainer" class="tile-view">
+                <!-- JS가 여기에 프로젝트 카드/리스트를 삽입 -->
+            </div>
+        </div>
 
+        
 
         <script src="script.js"></script>
     </body>
